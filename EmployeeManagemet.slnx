@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/Em.Core/">
+    <Project Path="Em.Core/Em.Core.Application/Em.Core.Application.csproj" />
+    <Project Path="Em.Core/Em.Core.Domain/Em.Core.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Em.Infrastructure/">
+    <Project Path="Em.Infrastructure/Em.Infrastructure.Cache/Em.Infrastructure.Cache.csproj" Id="49d4f472-afc2-4b79-81c0-dfdb0bf03b1b" />
+    <Project Path="Em.Infrastructure/Em.Infrastructure.Persistance/Em.Infrastructure.Persistance.csproj" Id="22affa64-249b-41a9-bfe6-1273f872c36a" />
+  </Folder>
+  <Folder Name="/Em.Presentation/">
+    <Project Path="Em.WebApi/Em.WebApi.csproj" Id="d13a8e01-ef0f-476f-a404-f5b2b552a132" />
+  </Folder>
+</Solution>
