@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Em.Core.Application.DTOs.CreateDtos.Organization
+{
+    public class CreateCompanySettingDto
+    {
+        public Guid CompanyId { get; set; }
+        public int TicketExpirationDays { get; set; } = 30;
+        public int TicketExpiryReminderDays { get; set; } = 3;
+        public bool AllowPastDateLeaveRequests { get; set; }
+        public bool CountWeekendsAsLeaveDays { get; set; }
+        public bool CountPublicHolidaysAsLeaveDays { get; set; }
+        public int DefaultAnnualLeaveDays { get; set; }
+        public bool SaturdayIsWeekend { get; set; } = true;
+        public bool SundayIsWeekend { get; set; } = true;
+        public bool AllowMultipleAttendancePunchesPerDay { get; set; }
+        public int AssetReturnReminderDays { get; set; } = 3;
+    }
+}

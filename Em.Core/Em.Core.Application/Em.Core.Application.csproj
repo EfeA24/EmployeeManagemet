@@ -8,6 +8,9 @@
 
   <ItemGroup>
     <Folder Include="CQRS\" />
+    <Folder Include="DTOs\CreateDtos\" />
+    <Folder Include="DTOs\ReadDtos\" />
+    <Folder Include="DTOs\UpdateDtos\" />
     <Folder Include="Interfaces\Repositories\OrganizationRepositories\" />
   </ItemGroup>
 
