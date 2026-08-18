@@ -7,10 +7,14 @@ using System.Text;
 
 namespace Em.Core.Domain.Entities.Tickets
 {
-    public class TicketDecision : BaseEntity
+    public class TicketDecision : TenantEntity
     {
         public Guid TicketId { get; set; }
         public Ticket Ticket { get; set; } = null!;
+
+        public Guid? WorkflowStageId { get; set; }
+        public TicketApprovalWorkflowStage? WorkflowStage { get; set; }
+        public int StageOrder { get; set; }
 
         public Guid DecidedByEmployeeId { get; set; }
         public Employee DecidedByEmployee { get; set; } = null!;

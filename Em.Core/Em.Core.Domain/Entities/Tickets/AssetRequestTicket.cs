@@ -20,5 +20,8 @@ namespace Em.Core.Domain.Entities.Tickets
 
         public Guid? PreferredAssetId { get; set; }
         public Asset? PreferredAsset { get; set; }
+
+        public Guid? AssignedAssetId { get; set; }
+        public Asset? AssignedAsset { get; set; }
     }
 }

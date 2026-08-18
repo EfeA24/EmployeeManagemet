@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Em.Core.Domain.Entities.Notes
 {
-    public class PersonalNote : BaseEntity
+    public class PersonalNote : TenantEntity
     {
         public Guid EmployeeId { get; set; }
         public Employee Employee { get; set; } = null!;

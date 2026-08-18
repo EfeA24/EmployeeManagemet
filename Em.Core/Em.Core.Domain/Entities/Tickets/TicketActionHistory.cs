@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Em.Core.Domain.Entities.Tickets
 {
-    public class TicketActionHistory : BaseEntity
+    public class TicketActionHistory : TenantEntity
     {
         public Guid TicketId { get; set; }
         public Ticket Ticket { get; set; } = null!;

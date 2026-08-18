@@ -18,5 +18,8 @@ namespace Em.Core.Domain.Entities.Tickets
         public DateOnly EndDate { get; set; }
 
         public bool IsHalfDay { get; set; }
+
+        public decimal RequestedDayCount { get; set; }
+        public bool IsBalanceDeducted { get; set; }
     }
 }

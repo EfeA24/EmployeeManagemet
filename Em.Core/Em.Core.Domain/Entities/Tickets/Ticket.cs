@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Em.Core.Domain.Entities.Tickets
 {
-    public abstract class Ticket : BaseEntity
+    public abstract class Ticket : TenantEntity
     {
         public string TicketNumber { get; set; } = null!;
         public string Subject { get; set; } = null!;
@@ -17,7 +17,10 @@ namespace Em.Core.Domain.Entities.Tickets
         public TicketStatus Status { get; set; } = TicketStatus.Pending;
 
         public DateTime ExpiresAt { get; set; }
+        public DateTime? ReminderSentAt { get; set; }
         public DateTime? ResolvedAt { get; set; }
+
+        public int CurrentStageOrder { get; set; } = 1;
 
         public Guid RequestedByEmployeeId { get; set; }
         public Employee RequestedByEmployee { get; set; } = null!;

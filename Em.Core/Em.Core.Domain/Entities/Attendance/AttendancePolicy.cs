@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Em.Core.Domain.Entities.Attendance
 {
-    public class AttendancePolicy : BaseEntity
+    public class AttendancePolicy : TenantEntity
     {
         public string Name { get; set; } = null!;
 
@@ -20,5 +20,8 @@ namespace Em.Core.Domain.Entities.Attendance
 
         public Guid? DepartmentId { get; set; }
         public Department? Department { get; set; }
+
+        public Guid? EmployeeId { get; set; }
+        public Employee? Employee { get; set; }
     }
 }

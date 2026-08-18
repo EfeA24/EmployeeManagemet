@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Em.Core.Domain.Entities.Assets
 {
-    public class Asset : BaseEntity
+    public class Asset : TenantEntity
     {
         public string AssetTag { get; set; } = null!;
         public string Name { get; set; } = null!;

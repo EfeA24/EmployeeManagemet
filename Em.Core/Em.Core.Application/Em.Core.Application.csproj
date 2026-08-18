@@ -8,9 +8,7 @@
 
   <ItemGroup>
     <Folder Include="CQRS\" />
-    <Folder Include="Interfaces\Repositories\TicketRepositories\" />
     <Folder Include="Interfaces\Repositories\OrganizationRepositories\" />
-    <Folder Include="Interfaces\Repositories\NoteRepositories\" />
   </ItemGroup>
 
   <ItemGroup>

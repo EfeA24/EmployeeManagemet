@@ -1,5 +1,7 @@
 ﻿using Em.Core.Domain.Entities.Assets;
 using Em.Core.Domain.Entities.Attendance;
+using Em.Core.Domain.Entities.Identity;
+using Em.Core.Domain.Entities.Leave;
 using Em.Core.Domain.Entities.Notes;
 using Em.Core.Domain.Entities.Tickets;
 using Em.Core.Domain.Generic;
@@ -9,11 +11,12 @@ using System.Text;
 
 namespace Em.Core.Domain.Entities.Organization
 {
-    public class Employee : BaseEntity
+    public class Employee : TenantEntity
     {
         public Guid UserId { get; set; }
+        public User User { get; set; } = null!;
 
-        public string? EmployeeNumber { get; set; } = null!;
+        public string EmployeeNumber { get; set; } = null!;
         public string FirstName { get; set; } = null!;
         public string LastName { get; set; } = null!;
         public string Email { get; set; } = null!;
@@ -40,5 +43,11 @@ namespace Em.Core.Domain.Entities.Organization
 
         public ICollection<PersonalNote> PersonalNotes { get; set; }
             = new List<PersonalNote>();
+
+        public ICollection<LeaveBalance> LeaveBalances { get; set; }
+            = new List<LeaveBalance>();
+
+        public ICollection<EmployeeDepartmentHistory> DepartmentHistory { get; set; }
+            = new List<EmployeeDepartmentHistory>();
     }
 }

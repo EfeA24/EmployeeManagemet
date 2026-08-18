@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Em.Core.Domain.Entities.Tickets
 {
-    public class TicketApprovalPermission : BaseEntity
+    public class TicketApprovalPermission : TenantEntity
     {
         public Guid EmployeeId { get; set; }
         public Employee Employee { get; set; } = null!;

@@ -7,13 +7,16 @@ using System.Text;
 
 namespace Em.Core.Domain.Entities.Assets
 {
-    public class AssetAssignment : BaseEntity
+    public class AssetAssignment : TenantEntity
     {
         public Guid AssetId { get; set; }
         public Asset Asset { get; set; } = null!;
 
         public Guid EmployeeId { get; set; }
         public Employee Employee { get; set; } = null!;
+
+        public Guid? AssignedByEmployeeId { get; set; }
+        public Employee? AssignedByEmployee { get; set; }
 
         public Guid? SourceTicketId { get; set; }
         public Ticket? SourceTicket { get; set; }
