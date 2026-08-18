@@ -8,7 +8,13 @@
 
   <ItemGroup>
     <Folder Include="CQRS\" />
-    <Folder Include="RepositortyAbstractions\" />
+    <Folder Include="Interfaces\Repositories\TicketRepositories\" />
+    <Folder Include="Interfaces\Repositories\OrganizationRepositories\" />
+    <Folder Include="Interfaces\Repositories\NoteRepositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Em.Core.Domain\Em.Core.Domain.csproj" />
   </ItemGroup>
 
 </Project>
