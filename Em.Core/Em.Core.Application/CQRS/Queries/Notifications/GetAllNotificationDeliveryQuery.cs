@@ -1,0 +1,9 @@
+using Em.Core.Application.DTOs.ReadDtos.Notifications;
+using MediatR;
+
+namespace Em.Core.Application.CQRS.Queries.Notifications
+{
+    public class GetAllNotificationDeliveryQuery : IRequest<IReadOnlyList<GetAllNotificationDeliveryDto>>
+    {
+    }
+}
