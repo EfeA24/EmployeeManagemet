@@ -1,5 +1,5 @@
-using Em.Core.Application.CQRS.Organization.Commands;
-using Em.Core.Application.CQRS.Organization.Queries;
+using Em.Core.Application.CQRS.Commands.Organization;
+using Em.Core.Application.CQRS.Queries.Organization;
 using Em.Core.Application.DTOs.CreateDtos.Organization;
 using Em.Core.Application.DTOs.ReadDtos.Organization;
 using Em.Core.Application.DTOs.UpdateDtos.Organization;

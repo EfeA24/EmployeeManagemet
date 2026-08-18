@@ -1,5 +1,5 @@
-using Em.Core.Application.CQRS.Audit.Commands;
-using Em.Core.Application.CQRS.Audit.Queries;
+using Em.Core.Application.CQRS.Commands.Audit;
+using Em.Core.Application.CQRS.Queries.Audit;
 using Em.Core.Application.DTOs.CreateDtos.Audit;
 using Em.Core.Application.DTOs.ReadDtos.Audit;
 using Em.Core.Application.DTOs.UpdateDtos.Audit;

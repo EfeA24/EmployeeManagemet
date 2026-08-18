@@ -1,5 +1,5 @@
-using Em.Core.Application.CQRS.Notes.Commands;
-using Em.Core.Application.CQRS.Notes.Queries;
+using Em.Core.Application.CQRS.Commands.Notes;
+using Em.Core.Application.CQRS.Queries.Notes;
 using Em.Core.Application.DTOs.CreateDtos.Notes;
 using Em.Core.Application.DTOs.ReadDtos.Notes;
 using Em.Core.Application.DTOs.UpdateDtos.Notes;

@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CQRS\" />
+    <Folder Include="CQRS\Commands\" />
+    <Folder Include="CQRS\Queries\" />
+    <Folder Include="CQRS\Handlers\" />
     <Folder Include="DTOs\CreateDtos\" />
     <Folder Include="DTOs\ReadDtos\" />
     <Folder Include="DTOs\UpdateDtos\" />

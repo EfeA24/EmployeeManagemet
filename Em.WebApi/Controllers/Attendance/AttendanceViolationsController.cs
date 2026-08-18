@@ -1,5 +1,5 @@
-using Em.Core.Application.CQRS.Attendance.Commands;
-using Em.Core.Application.CQRS.Attendance.Queries;
+using Em.Core.Application.CQRS.Commands.Attendance;
+using Em.Core.Application.CQRS.Queries.Attendance;
 using Em.Core.Application.DTOs.CreateDtos.Attendance;
 using Em.Core.Application.DTOs.ReadDtos.Attendance;
 using Em.Core.Application.DTOs.UpdateDtos.Attendance;

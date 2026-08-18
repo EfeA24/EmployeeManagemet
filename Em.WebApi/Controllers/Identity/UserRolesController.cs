@@ -1,5 +1,5 @@
-using Em.Core.Application.CQRS.Identity.Commands;
-using Em.Core.Application.CQRS.Identity.Queries;
+using Em.Core.Application.CQRS.Commands.Identity;
+using Em.Core.Application.CQRS.Queries.Identity;
 using Em.Core.Application.DTOs.CreateDtos.Identity;
 using Em.Core.Application.DTOs.ReadDtos.Identity;
 using Em.Core.Application.DTOs.UpdateDtos.Identity;

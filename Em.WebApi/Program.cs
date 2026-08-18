@@ -14,6 +14,7 @@ builder.Services.AddControllers()
         .Select()
         .Filter()
         .OrderBy()
+        .Expand()
         .Count()
         .SetMaxTop(100));
 
@@ -25,11 +26,13 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
+else
+{
+    app.UseHttpsRedirection();
+}
 
-app.UseHttpsRedirection();
-
+app.UseRouting();
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();

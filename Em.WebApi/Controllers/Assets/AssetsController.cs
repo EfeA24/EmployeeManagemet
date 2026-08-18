@@ -1,5 +1,5 @@
-using Em.Core.Application.CQRS.Assets.Commands;
-using Em.Core.Application.CQRS.Assets.Queries;
+using Em.Core.Application.CQRS.Commands.Assets;
+using Em.Core.Application.CQRS.Queries.Assets;
 using Em.Core.Application.DTOs.CreateDtos.Assets;
 using Em.Core.Application.DTOs.ReadDtos.Assets;
 using Em.Core.Application.DTOs.UpdateDtos.Assets;

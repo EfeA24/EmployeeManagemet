@@ -1,5 +1,5 @@
-using Em.Core.Application.CQRS.Tickets.Commands;
-using Em.Core.Application.CQRS.Tickets.Queries;
+using Em.Core.Application.CQRS.Commands.Tickets;
+using Em.Core.Application.CQRS.Queries.Tickets;
 using Em.Core.Application.DTOs.CreateDtos.Tickets;
 using Em.Core.Application.DTOs.ReadDtos.Tickets;
 using Em.Core.Application.DTOs.UpdateDtos.Tickets;

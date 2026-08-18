@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/SolutionItems/">
+    <File Path="SolutionItems/docker-compose.yml" />
+  </Folder>
   <Folder Name="/Em.Core/">
     <Project Path="Em.Core/Em.Core.Application/Em.Core.Application.csproj" />
     <Project Path="Em.Core/Em.Core.Domain/Em.Core.Domain.csproj" />

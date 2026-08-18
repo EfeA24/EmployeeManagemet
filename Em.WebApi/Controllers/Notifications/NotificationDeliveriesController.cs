@@ -1,5 +1,5 @@
-using Em.Core.Application.CQRS.Notifications.Commands;
-using Em.Core.Application.CQRS.Notifications.Queries;
+using Em.Core.Application.CQRS.Commands.Notifications;
+using Em.Core.Application.CQRS.Queries.Notifications;
 using Em.Core.Application.DTOs.CreateDtos.Notifications;
 using Em.Core.Application.DTOs.ReadDtos.Notifications;
 using Em.Core.Application.DTOs.UpdateDtos.Notifications;

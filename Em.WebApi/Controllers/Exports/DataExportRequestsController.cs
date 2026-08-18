@@ -1,5 +1,5 @@
-using Em.Core.Application.CQRS.Exports.Commands;
-using Em.Core.Application.CQRS.Exports.Queries;
+using Em.Core.Application.CQRS.Commands.Exports;
+using Em.Core.Application.CQRS.Queries.Exports;
 using Em.Core.Application.DTOs.CreateDtos.Exports;
 using Em.Core.Application.DTOs.ReadDtos.Exports;
 using Em.Core.Application.DTOs.UpdateDtos.Exports;

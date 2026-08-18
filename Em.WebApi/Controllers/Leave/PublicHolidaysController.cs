@@ -1,5 +1,5 @@
-using Em.Core.Application.CQRS.Leave.Commands;
-using Em.Core.Application.CQRS.Leave.Queries;
+using Em.Core.Application.CQRS.Commands.Leave;
+using Em.Core.Application.CQRS.Queries.Leave;
 using Em.Core.Application.DTOs.CreateDtos.Leave;
 using Em.Core.Application.DTOs.ReadDtos.Leave;
 using Em.Core.Application.DTOs.UpdateDtos.Leave;
